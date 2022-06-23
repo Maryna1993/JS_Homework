@@ -1,0 +1,183 @@
+@media screen and (max-width: 962px) {
+    .logo-header {
+        padding-left: 10px;
+    }
+
+    .header-right {
+        padding-right: 10px;
+    }
+
+    .menu {
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .submenu {
+        display: none;
+    }
+
+    .block-grid {
+        grid-template-areas:
+        " content"
+        " footer";
+        grid-template-columns:  auto;
+        grid-template-rows: 1fr 90px;
+    }
+
+    .copy {
+        display: none;
+    }
+
+    .footer-menu {
+        text-align: center;
+    }
+
+    .footer {
+        font-size: 14px;
+    }
+
+    .footer-menu-item {
+        padding: 34px 0
+    }
+
+    body {
+        font-size: 16px;
+    }
+
+    a.button-main {
+        padding: 17px 30px 17px 20px;
+    }
+
+    div.post > div span {
+        font-size: 14px;
+    }
+
+    a.button-main {
+        margin-top: 20px;
+    }
+
+    h4 {
+        font-size: 18px;
+        padding: 8px 0 8px;
+    }
+
+    .one-string {
+        display: block;
+    }
+
+    div.search span {
+        display: none;
+    }
+
+    #plus {
+        display: block;
+        margin-left: 150px;
+    }
+
+    #slider, .search svg {
+        width: 28px;
+        height: 28px;
+
+    }
+
+    .search input {
+        display: none;
+    }
+
+    .search button {
+        position: relative;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 35px;
+        padding-bottom: 25px;
+        padding-top: 25px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .header {
+        color: white;
+    }
+
+    .header-city {
+        color: #fff;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .header-city {
+        color: #fff;
+    }
+
+    #arrow, #envelope, #bell, #search {
+        fill: white;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .burger span, .burger::before, .burger::after {
+        height: 2px;
+    }
+
+    .burger {
+        width: 25px;
+    }
+
+    body {
+        font-size: 13px;
+    }
+
+    h1 {
+        font-size: 25px;
+        padding-bottom: 15px;
+        padding-top: 15px;
+    }
+
+    #slider, .search svg, #arrow, #envelope, #bell, #search {
+        width: 20px;
+        height: 20px;
+    }
+
+    div.post > div span {
+        font-size: 10px;
+    }
+
+    h4 {
+        font-size: 15px;
+        padding: 5px 0 5px;
+    }
+
+    p {
+        padding-bottom: 8px;
+    }
+
+    a.button-main {
+        padding: 12px 15px 12px 15px;
+    }
+
+    .footer {
+        font-size: 11px;
+    }
+
+    .content {
+        padding-bottom: 50px;
+    }
+
+    .post {
+        flex: 0 0 85%;
+    }
+
+    .mobile-menu {
+        left: 5%;
+    }
+}

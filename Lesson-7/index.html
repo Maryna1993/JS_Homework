@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta
+            name="viewport"
+            content="width=device-width, height=device-height, initial-scale=1, user-scalable=no, maximum-scale=1.0"
+    />
+    <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+            rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500;600&display=swap" rel="stylesheet">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+    <link rel="stylesheet" href="css/normalize.css"/>
+    <link rel="stylesheet" href="css/style.css" type="text/css"/>
+    <link rel="stylesheet" href="css/media.css" type="text/css"/>
+    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="scripts/main.js" type="text/javascript"></script>
+    <title>Qulix</title>
+</head>
+<body>
+<header class="header">
+    <div class="container header-block">
+
+        <div class="logo-header">
+            <a
+                    href="index.html
+             "
+                    class="logo"
+                    title="Qulix"
+            >
+                <img class="logo" src="img/logo.png" alt="Logo" title="logo">
+            </a>
+        </div>
+        <div class="burger">
+            <span></span>
+        </div>
+        <div class="header-right">
+            <a class="header-city" href="#" title="city">New York </a>
+            <svg id="arrow" width="15" height="15" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"
+                 fill="#727989">
+                <path d="M192 384c-8.188 0-16.38-3.125-22.62-9.375l-160-160c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5
+                45.25 0L192 306.8l137.4-137.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-160 160C208.4 380.9
+                200.2 384 192 384z"/>
+            </svg>
+            <a href="#" title="bell">
+                <svg id="bell" width="23" height="30" fill="#727989" xmlns="http://www.w3.org/2000/svg"
+                     viewBox="0 0 448 512">
+                    <path d="M256 32V51.2C329 66.03 384 130.6 384 208V226.8C384 273.9 401.3 319.2 432.5 354.4L439.9
+                    362.7C448.3 372.2 450.4 385.6 445.2 397.1C440 408.6 428.6 416 416 416H32C19.4 416 7.971 408.6 2.809
+                    397.1C-2.353 385.6-.2883 372.2 8.084 362.7L15.5 354.4C46.74 319.2 64 273.9 64 226.8V208C64 130.6
+                     118.1 66.03 192 51.2V32C192 14.33 206.3 0 224 0C241.7 0 256 14.33 256 32H256zM224 512C207 512
+                     190.7 505.3 178.7 493.3C166.7 481.3 160 464.1 160 448H288C288 464.1 281.3 481.3 269.3
+                      493.3C257.3 505.3 240.1 512 224 512z"/>
+                </svg>
+            </a>
+            <a href="#" title="envelope">
+                <svg id="envelope" width="23" height="23" fill="#727989" xmlns="http://www.w3.org/2000/svg"
+                     viewBox="0 0 512 512">
+                    <path d="M464 64C490.5 64 512 85.49 512 112C512 127.1 504.9 141.3 492.8 150.4L275.2 313.6C263.8
+                    322.1 248.2 322.1 236.8 313.6L19.2 150.4C7.113 141.3 0 127.1 0 112C0 85.49 21.49 64 48
+                     64H464zM217.6 339.2C240.4 356.3 271.6 356.3 294.4 339.2L512 176V384C512 419.3 483.3 448 448
+                      448H64C28.65 448 0 419.3 0 384V176L217.6 339.2z"/>
+                </svg>
+            </a>
+            <span>User name</span>
+            <img src="img/userPhoto.jpg" alt="user photo" title="user photo">
+            <button type="submit">
+                <svg id="search" width="23" height="23" viewBox="0 0 512 512" fill="#727989"
+                     xmlns="http://www.w3.org/2000/svg">
+                    <path d="M500.3 443.7l-119.7-119.7c27.22-40.41 40.65-90.9 33.46-144.7C401.8 87.79 326.8 13.32
+                     235.2 1.723C99.01-15.51-15.51 99.01 1.724 235.2c11.6 91.64 86.08 166.7 177.6 178.9c53.8 7.189
+                      104.3-6.236 144.7-33.46l119.7 119.7c15.62 15.62 40.95 15.62 56.57 0C515.9 484.7 515.9 459.3
+                      500.3 443.7zM79.1 208c0-70.58 57.42-128 128-128s128 57.42 128 128c0 70.58-57.42 128-128 128S79.1
+                       278.6 79.1 208z"/>
+                </svg>
+            </button>
+        </div>
+    </div>
+</header>
+<nav class="nav">
+    <div class="container">
+        <ul class="menu">
+            <li class="menu-item">
+                <a href="#" class="menu-link" title="Menu-item">Menu-item</a>
+            </li>
+            <li class="menu-item">
+                <a href="#" class="menu-link" title="Menu-item">Menu-item</a>
+            </li>
+            <li class="menu-item">
+                <a href="#" class="menu-link" title="Menu-item">Menu-item</a>
+            </li>
+            <li class="menu-item">
+                <a href="#" class="menu-link" title="Menu-item">Menu-item</a>
+            </li>
+            <li class="menu-item">
+                <a href="#" class="menu-link" title="Menu-item">Menu-item</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<nav class="mobile-menu">
+    <ul class="mob-menu">
+        <li class="mob-menu-item">
+            <a href="#" class="mob-menu-link" title="Menu-item">Menu-item</a>
+        </li>
+        <li class="mob-menu-item">
+            <a href="#" class="mob-menu-link" title="Menu-item">Menu-item</a>
+        </li>
+        <li class="mob-menu-item">
+            <a href="#" class="mob-menu-link" title="Menu-item">Menu-item</a>
+        </li>
+        <li class="mob-menu-item">
+            <a href="#" class="mob-menu-link" title="Menu-item">Menu-item</a>
+        </li>
+        <li class="mob-menu-item">
+            <a href="#" class="mob-menu-link" title="Menu-item">Menu-item</a>
+        </li>
+    </ul>
+</nav>
+<div class="main container">
+    <div class="block-grid">
+        <div class="submenu">
+            <ul class="submenu-block submenu-block-first">
+                <li class="submenu-item">
+                    <a href="#" class="submenu-link" title="Submenu-item">Submenu item 7d</a>
+                </li>
+                <li class="submenu-item">
+                    <a href="#" class="submenu-link" title="Submenu-item">Submenu item 5d</a>
+                </li>
+            </ul>
+            <h3>Submenu</h3>
+            <ul class="submenu-block ">
+                <li class="submenu-item">
+                    <a href="#" class="submenu-link" title="Submenu-item">Submenu item 7d</a>
+                </li>
+                <li class="submenu-item">
+                    <a href="#" class="submenu-link" title="Submenu-item">Submenu item 2d</a>
+                </li>
+                <li class="submenu-item">
+                    <a href="#" class="submenu-link" title="Submenu-item">Submenu item 4d</a>
+                </li>
+                <li class="submenu-item">
+                    <a href="#" class="submenu-link" title="Submenu-item">More tags</a>
+                </li>
+            </ul>
+            <h3>Submenu</h3>
+            <ul class="submenu-block">
+                <li class="submenu-item">
+                    <a href="#" class="submenu-link" title="Submenu-item">Submenu item 1d</a>
+                </li>
+                <li class="submenu-item">
+                    <a href="#" class="submenu-link" title="Submenu-item">Submenu item 1d</a>
+                </li>
+            </ul>
+            <h3>Submenu</h3>
+            <ul class="submenu-block">
+                <li class="submenu-item">
+                    <a href="#" class="submenu-link" title="Submenu-item">Submenu item 4d</a>
+                </li>
+                <li class="submenu-item">
+                    <a href="#" class="submenu-link" title="Submenu-item">Submenu item 2d</a>
+                </li>
+                <li class="submenu-item">
+                    <a href="#" class="submenu-link" title="Submenu-item">Submenu item1 &amp; Submenu item2 <br> 2d</a>
+                </li>
+                <li class="submenu-item">
+                    <a href="#" class="submenu-link" title="Submenu-item">Submenu item 7d</a>
+                </li>
+                <li class="submenu-item">
+                    <a href="#" class="submenu-link" title="Submenu-item">Submenu item 1d</a>
+                </li>
+                <li class="submenu-item">
+                    <a href="#" class="submenu-link" title="Submenu-item">Submenu item 1d</a>
+                </li>
+            </ul>
+            <h3>Submenu</h3>
+            <ul class="submenu-block">
+                <li class="submenu-item">
+                    <a href="#" class="submenu-link" title="Submenu-item">Submenu item 2d</a>
+                </li>
+                <li class="submenu-item">
+                    <a href="#" class="submenu-link" title="Submenu-item">Submenu item 1d</a>
+                </li>
+                <li class="submenu-item">
+                    <a href="#" class="submenu-link" title="Submenu-item">Submenu item 3d</a>
+                </li>
+
+            </ul>
+        </div>
+        <div class="content">
+            <h1>Page title in
+                <a class="title-city" href="#" title="city">New York </a> <span class="arrow"><img src="img/arrow.png"
+                                                                                                   alt="Arrow"
+                                                                                                   title="Arrow"
+                                                                                                   width="30"
+                                                                                                   height="30">
+            </span></h1>
+            <div class="search">
+                <form>
+                    <input type="text" placeholder="Search...">
+                    <button type="submit">
+                        <svg width="24" height="24" viewBox="0 0 512 512" fill="#99a1b3"
+                             xmlns="http://www.w3.org/2000/svg">
+                            <path d="M500.3 443.7l-119.7-119.7c27.22-40.41 40.65-90.9 33.46-144.7C401.8 87.79 326.8
+                             13.32 235.2 1.723C99.01-15.51-15.51 99.01 1.724 235.2c11.6 91.64 86.08 166.7 177.6
+                             178.9c53.8 7.189 104.3-6.236 144.7-33.46l119.7 119.7c15.62 15.62 40.95 15.62 56.57
+                             0C515.9 484.7 515.9 459.3 500.3 443.7zM79.1 208c0-70.58 57.42-128 128-128s128 57.42 128
+                             128c0 70.58-57.42 128-128 128S79.1 278.6 79.1 208z"/>
+                        </svg>
+                    </button>
+                </form>
+
+                <span>+New item </span>
+                <svg id="plus" width="28" height="28" fill="#99a1b3" xmlns="http://www.w3.org/2000/svg"
+                     viewBox="0 0 448 512">
+                    <path d="M432 256c0 17.69-14.33 32.01-32 32.01H256v144c0 17.69-14.33 31.99-32
+                    31.99s-32-14.3-32-31.99v-144H48c-17.67 0-32-14.32-32-32.01s14.33-31.99 32-31.99H192v-144c0-17.69
+                    14.33-32.01 32-32.01s32 14.32 32 32.01v144h144C417.7 224 432 238.3 432 256z"/>
+                </svg>
+                <svg id="slider" width="18" height="18" viewBox="0 0 512 512" fill="#99a1b3"
+                     xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 416C0 398.3 14.33 384 32 384H86.66C99 355.7 127.2 336 160 336C192.8 336 220.1
+                    355.7 233.3 384H480C497.7 384 512 398.3 512 416C512 433.7 497.7 448 480 448H233.3C220.1 476.3 192.8
+                    496 160 496C127.2 496 99 476.3 86.66 448H32C14.33 448 0 433.7 0 416V416zM192 416C192 398.3 177.7 384
+                     160 384C142.3 384 128 398.3 128 416C128 433.7 142.3 448 160 448C177.7 448 192 433.7 192 416zM352
+                     176C384.8 176 412.1 195.7 425.3 224H480C497.7 224 512 238.3 512 256C512 273.7 497.7 288 480
+                     288H425.3C412.1 316.3 384.8 336 352 336C319.2 336 291 316.3 278.7 288H32C14.33 288 0 273.7
+                     0 256C0 238.3 14.33 224 32 224H278.7C291 195.7 319.2 176 352 176zM384 256C384 238.3 369.7
+                     224 352 224C334.3 224 320 238.3 320 256C320 273.7 334.3 288 352 288C369.7 288 384 273.7
+                     384 256zM480 64C497.7 64 512 78.33 512 96C512 113.7 497.7 128 480 128H265.3C252.1 156.3
+                     224.8 176 192 176C159.2 176 131 156.3 118.7 128H32C14.33 128 0 113.7 0 96C0 78.33 14.33
+                     64 32 64H118.7C131 35.75 159.2 16 192 16C224.8 16 252.1 35.75 265.3 64H480zM160 96C160
+                     113.7 174.3 128 192 128C209.7 128 224 113.7 224 96C224 78.33 209.7 64 192 64C174.3 64 160
+                     78.33 160 96z"/>
+                </svg>
+            </div>
+            <div class="info">
+                <div class="photo">
+                    <img src="img/photo1.jpg" alt="Photo users" title="Photo users" width="60" height="60">
+                </div>
+                <div class="post">
+                    <div class="one-string">
+                        <div class="user-info">
+                            <span class="name">User name </span>
+                            <span class="status">Pro </span>
+                        </div>
+                        <div class="user-info-right">
+                            <svg width="15" height="12" viewBox="0 0 640 512" fill="#99a1b3"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path d="M416 176C416 78.8 322.9 0 208 0S0 78.8 0 176c0 39.57 15.62 75.96 41.67
+                                105.4c-16.39 32.76-39.23 57.32-39.59 57.68c-2.1 2.205-2.67 5.475-1.441 8.354C1.9
+                                 350.3 4.602 352 7.66 352c38.35 0 70.76-11.12 95.74-24.04C134.2 343.1 169.8 352 208
+                                 352C322.9 352 416 273.2 416 176zM599.6 443.7C624.8 413.9 640 376.6 640 336C640
+                                 238.8 554 160 448 160c-.3145 0-.6191 .041-.9336 .043C447.5 165.3 448 170.6 448 176c0
+                                  98.62-79.68 181.2-186.1 202.5C282.7 455.1 357.1 512 448 512c33.69 0 65.32-8.008
+                                   92.85-21.98C565.2 502 596.1 512 632.3 512c3.059 0 5.76-1.725 7.02-4.605c1.229-2.879
+                                    .6582-6.148-1.441-8.354C637.6 498.7 615.9 475.3 599.6 443.7z"/>
+                            </svg>
+                            <span class="number">2</span>
+                            <i class='fa fa-clock-o'></i>
+                            <span>20m</span>
+                        </div>
+                    </div>
+                    <h4>Item title 1</h4>
+                    <p>Suspendisse potenti. Duis imperdiet ex non leo condimentum efficitur. Sed rhoncus eleifend lacus
+                        sit amet faucibus. Nunc semper nisl a dolor pretium dapibus quis quis lacus. Nulla faucibus
+                        viverra laoreet. Fusce in scelerisque magna. Duis porta erat vitae lectus lacinia tempus.</p>
+                    <div class="string">
+                        <svg width="13" height="11" fill="#99a1b3" xmlns="http://www.w3.org/2000/svg"
+                             viewBox="0 0 448 512">
+                            <path d="M48 32H197.5C214.5 32 230.7 38.74 242.7 50.75L418.7 226.7C443.7 251.7 443.7 292.3
+                            418.7 317.3L285.3 450.7C260.3 475.7 219.7 475.7 194.7 450.7L18.75 274.7C6.743 262.7 0 246.5
+                            0 229.5V80C0 53.49 21.49 32 48 32L48 32zM112 176C129.7 176 144 161.7 144 144C144 126.3 129.7
+                            112 112 112C94.33 112 80 126.3 80 144C80 161.7 94.33 176 112 176z"/>
+                        </svg>
+                        <span>tag1, tag2, tag3</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="info">
+                <div class="photo">
+                    <img src="img/photo2.jpg" alt="Photo users" title="Photo users" width="60" height="60">
+                </div>
+                <div class="post">
+                    <div class="one-string">
+                        <div class="user-info">
+                            <span class="name">User name </span>
+                            <span class="status">Member </span>
+                        </div>
+                        <div class="user-info-right">
+                            <svg width="15" height="12" viewBox="0 0 640 512" fill="#99a1b3"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path d="M416 176C416 78.8 322.9 0 208 0S0 78.8 0 176c0 39.57 15.62 75.96 41.67
+                                 105.4c-16.39 32.76-39.23 57.32-39.59 57.68c-2.1 2.205-2.67 5.475-1.441 8.354C1.9
+                                 350.3 4.602 352 7.66 352c38.35 0 70.76-11.12 95.74-24.04C134.2 343.1 169.8 352 208
+                                 352C322.9 352 416 273.2 416 176zM599.6 443.7C624.8 413.9 640 376.6 640 336C640
+                                 238.8 554 160 448 160c-.3145 0-.6191 .041-.9336 .043C447.5 165.3 448 170.6 448
+                                  176c0 98.62-79.68 181.2-186.1 202.5C282.7 455.1 357.1 512 448 512c33.69 0 65.32-8.008
+                                   92.85-21.98C565.2 502 596.1 512 632.3 512c3.059 0 5.76-1.725 7.02-4.605c1.229-2.879
+                                   .6582-6.148-1.441-8.354C637.6 498.7 615.9 475.3 599.6 443.7z"/>
+                            </svg>
+                            <span class="number">2</span>
+                            <i class='fa fa-clock-o'></i>
+                            <span>20m</span>
+                        </div>
+                    </div>
+                    <h4>Item title 2</h4>
+                    <p>Suspendisse potenti. Duis imperdiet ex non leo condimentum efficitur. Sed rhoncus eleifend lacus
+                        sit amet faucibus. Nunc semper nisl a dolor pretium dapibus quis quis lacus. Nulla faucibus
+                        viverra laoreet. Fusce in scelerisque magna. Duis porta erat vitae lectus lacinia tempus.</p>
+                    <div class="string">
+                        <svg width="13" height="11" fill="#99a1b3" xmlns="http://www.w3.org/2000/svg"
+                             viewBox="0 0 448 512">
+                            <path d="M48 32H197.5C214.5 32 230.7 38.74 242.7 50.75L418.7 226.7C443.7 251.7 443.7 292.3
+                            418.7 317.3L285.3 450.7C260.3 475.7 219.7 475.7 194.7 450.7L18.75 274.7C6.743 262.7 0 246.5
+                            0 229.5V80C0 53.49 21.49 32 48 32L48 32zM112 176C129.7 176 144 161.7 144 144C144 126.3
+                            129.7 112 112 112C94.33 112 80 126.3 80 144C80 161.7 94.33 176 112 176z"/>
+                        </svg>
+                        <span>tag1, tag2, tag3</span>
+                    </div>
+                </div>
+            </div>
+            <div class="info">
+                <div class="photo">
+                    <img src="img/photo3.jpg" alt="Photo users" title="Photo users" width="60" height="60">
+                </div>
+                <div class="post">
+                    <div class="one-string">
+                        <div class="user-info">
+                            <span class="name">User name </span>
+                            <span class="status">Member </span>
+                        </div>
+                        <div class="user-info-right">
+                            <svg width="15" height="12" viewBox="0 0 640 512" fill="#99a1b3"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path d="M416 176C416 78.8 322.9 0 208 0S0 78.8 0 176c0 39.57 15.62 75.96 41.67
+                                 105.4c-16.39 32.76-39.23 57.32-39.59 57.68c-2.1 2.205-2.67 5.475-1.441 8.354C1.9
+                                 350.3 4.602 352 7.66 352c38.35 0 70.76-11.12 95.74-24.04C134.2 343.1 169.8 352
+                                 208 352C322.9 352 416 273.2 416 176zM599.6 443.7C624.8 413.9 640 376.6 640 336C640
+                                  238.8 554 160 448 160c-.3145 0-.6191 .041-.9336 .043C447.5 165.3 448 170.6 448 176c0
+                                   98.62-79.68 181.2-186.1 202.5C282.7 455.1 357.1 512 448 512c33.69 0 65.32-8.008
+                                   92.85-21.98C565.2 502 596.1 512 632.3 512c3.059 0 5.76-1.725 7.02-4.605c1.229-2.879
+                                    .6582-6.148-1.441-8.354C637.6 498.7 615.9 475.3 599.6 443.7z"/>
+                            </svg>
+                            <span class="number">2</span>
+                            <i class='fa fa-clock-o'></i>
+                            <span>20m</span>
+                        </div>
+                    </div>
+                    <h4>Item title 3</h4>
+                    <p>Suspendisse potenti. Duis imperdiet ex non leo condimentum efficitur. Sed rhoncus eleifend lacus
+                        sit amet faucibus. Nunc semper nisl a dolor pretium dapibus quis quis lacus. Nulla faucibus
+                        viverra laoreet. Fusce in scelerisque magna. Duis porta erat vitae lectus lacinia tempus.</p>
+                    <div class="string">
+                        <svg width="13" height="11" fill="#99a1b3" xmlns="http://www.w3.org/2000/svg"
+                             viewBox="0 0 448 512">
+                            <path d="M48 32H197.5C214.5 32 230.7 38.74 242.7 50.75L418.7 226.7C443.7 251.7 443.7 292.3
+                            418.7 317.3L285.3 450.7C260.3 475.7 219.7 475.7 194.7 450.7L18.75 274.7C6.743 262.7 0 246.5
+                             0 229.5V80C0 53.49 21.49 32 48 32L48 32zM112 176C129.7 176 144 161.7 144 144C144 126.3
+                             129.7 112 112 112C94.33 112 80 126.3 80 144C80 161.7 94.33 176 112 176z"/>
+                        </svg>
+                        <span>tag1, tag2, tag3</span>
+                    </div>
+                </div>
+            </div>
+            <div class="info">
+                <div class="photo">
+                    <img src="img/photo4.jpg" alt="Photo users" title="Photo users" width="60" height="60">
+                </div>
+                <div class="post">
+                    <div class="one-string">
+                        <div class="user-info">
+                            <span class="name">User name </span>
+                            <span class="status">Member </span>
+                        </div>
+                        <div class="user-info-right">
+                            <svg width="15" height="12" viewBox="0 0 640 512" fill="#99a1b3"
+                                 xmlns="http://www.w3.org/2000/svg">
+                                <path d="M416 176C416 78.8 322.9 0 208 0S0 78.8 0 176c0 39.57 15.62 75.96 41.67
+                                105.4c-16.39 32.76-39.23 57.32-39.59 57.68c-2.1 2.205-2.67 5.475-1.441 8.354C1.9 350.3
+                                4.602 352 7.66 352c38.35 0 70.76-11.12 95.74-24.04C134.2 343.1 169.8 352 208 352C322.9
+                                 352 416 273.2 416 176zM599.6 443.7C624.8 413.9 640 376.6 640 336C640 238.8 554 160 448
+                                 160c-.3145 0-.6191 .041-.9336 .043C447.5 165.3 448 170.6 448 176c0 98.62-79.68
+                                 181.2-186.1 202.5C282.7 455.1 357.1 512 448 512c33.69 0 65.32-8.008 92.85-21.98C565.2
+                                 502 596.1 512 632.3 512c3.059 0 5.76-1.725 7.02-4.605c1.229-2.879
+                                 .6582-6.148-1.441-8.354C637.6 498.7 615.9 475.3 599.6 443.7z"/>
+                            </svg>
+                            <span class="number">2</span>
+                            <i class='fa fa-clock-o'></i>
+                            <span>20m</span>
+                        </div>
+                    </div>
+                    <h4>Item title 3</h4>
+                    <p>Suspendisse potenti. Duis imperdiet ex non leo condimentum efficitur. Sed rhoncus eleifend lacus
+                        sit amet faucibus. Nunc semper nisl a dolor pretium dapibus quis quis lacus. Nulla faucibus
+                        viverra laoreet. Fusce in scelerisque magna. Duis porta erat vitae lectus lacinia tempus.</p>
+                    <div class="string">
+                        <svg width="13" height="11" fill="#99a1b3" xmlns="http://www.w3.org/2000/svg"
+                             viewBox="0 0 448 512">
+                            <path d="M48 32H197.5C214.5 32 230.7 38.74 242.7 50.75L418.7 226.7C443.7 251.7 443.7 292.3
+                            418.7 317.3L285.3 450.7C260.3 475.7 219.7 475.7 194.7 450.7L18.75 274.7C6.743 262.7 0 246.5
+                            0 229.5V80C0 53.49 21.49 32 48 32L48 32zM112 176C129.7 176 144 161.7 144 144C144 126.3 129.7
+                             112 112 112C94.33 112 80 126.3 80 144C80 161.7 94.33 176 112 176z"/>
+                        </svg>
+                        <span>tag1, tag2, tag3</span>
+                    </div>
+                </div>
+            </div>
+            <div class="buttons">
+                <a class="button-main" href="#" title="Previous">
+                    <span>&#10094;</span> Previous</a>
+                <a class="button-main" href="#" title="Next">
+                    Next <span>&#10095;</span></a>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="nav-footer">
+                <ul class="footer-menu ">
+                    <li class="footer-menu-item">
+                        <a href="#" class="footer-menu-link" title="About">About</a>
+                    </li>
+                    <li class="footer-menu-item">
+                        <a href="#" class="footer-menu-link" title="Policies">Policies</a>
+                    </li>
+                    <li class="footer-menu-item">
+                        <a href="#" class="footer-menu-link" title="Site map">Site map</a>
+                    </li>
+                    <li class="footer-menu-item">
+                        <a href="#" class="footer-menu-link" title="Help">Help</a>
+                    </li>
+                    <li class="footer-menu-item">
+                        <a href="#" class="footer-menu-link" title="Contact us">Contact us</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="copy">
+                <img src="img/logo-min.png" alt="Logo" title="Logo" width="22" height="13">
+                <span>&copy; 2015. Qulix Systems. All rights reserved.</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
