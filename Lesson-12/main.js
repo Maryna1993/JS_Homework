@@ -16,20 +16,19 @@ button.onclick = function (evt) {
     table.insertBefore(row, trOne);
 }
 
-table.addEventListener("click", function (evt) {
+table.addEventListener('click', function (evt) {
     var target = evt.target,
-        input = document.createElement("input");
+        input = document.createElement('input');
 
-    if (target.tagName == "TD") {
+    if (target.tagName === 'TD') {
         input.value = target.innerHTML;
-        target.innerHTML = "";
+        target.innerHTML = '';
         target.appendChild(input);
 
         input.focus();
 
-        input.addEventListener("blur", function (evt) {
+        input.addEventListener('blur', function (evt) {
             target.innerHTML = this.value;
-            target.appendChild(input).remove();
         });
 
         input.addEventListener('keyup', function (event) {
