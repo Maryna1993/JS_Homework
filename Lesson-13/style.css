@@ -1,0 +1,24 @@
+.block {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+ button {
+     margin-bottom: 10px;
+ }
+
+.td {
+    width: 20px;
+    height: 20px;
+}
+
+.black {
+    background-color: black;
+}
+
+.white {
+    background-color: white;
+}
+
+.table {
+    border-color: black;
+}
